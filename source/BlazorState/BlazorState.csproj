@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Blazor-State</PackageId>
-    <Version>0.0.1-alpha-0001</Version>
+    <Version>0.0.1-alpha-0002</Version>
     <Authors>Steven T. Cramer</Authors>
     <Description>blazor-state a MediatR pipeline for Blazor state management</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
