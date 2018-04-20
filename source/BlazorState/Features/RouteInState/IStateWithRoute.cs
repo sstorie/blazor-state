@@ -1,10 +1,10 @@
-﻿using BlazorState.Store;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BlazorState.Features.RouteInState
+﻿namespace BlazorState.Features.RouteInState
 {
+  using BlazorState.Store;
+  using System;
+  using System.Collections.Generic;
+  using System.Text;
+
   public interface IStateWithRoute : IState
   {
     

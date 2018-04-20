@@ -1,4 +1,4 @@
-﻿namespace BlazorState.Client.Features.IncrementCount
+﻿namespace BlazorState.Client.Features.Root.IncrementCount
 {
   using MediatR;
   public class Request : IRequest<State>

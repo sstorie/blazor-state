@@ -1,4 +1,4 @@
-﻿namespace BlazorState.Client.Features.IncrementCount
+﻿namespace BlazorState.Client.Features.Root.IncrementCount
 {
   using BlazorState.Behaviors.State;
   using BlazorState.Store;

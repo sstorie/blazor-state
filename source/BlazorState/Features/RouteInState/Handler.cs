@@ -7,7 +7,7 @@
 
   public class Handler : RequestHandler<Request, IState>
   {
-    public Handler(IStore<IState> aStore) : base(aStore) { }
+    public Handler(IStore<IStateWithRoute> aStore) : base((IStore<IState>)aStore) { }
 
     public override Task<IState> Handle(Request request, CancellationToken cancellationToken)
     {

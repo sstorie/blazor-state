@@ -10,21 +10,21 @@
     public string ApplicationName = "My Application";
 
     public int Count { get; set; }
-    public List<WeatherForecast> Forecasts { get; set; }
+    public List<WeatherForecast> WeatherForecasts { get; set; }
     public string Route { get; set; }
 
     public State()
     {
-      Forecasts = new List<WeatherForecast>();
+      WeatherForecasts = new List<WeatherForecast>();
     }
 
     protected State(State aState):this()
     {
       ApplicationName = aState.ApplicationName;
       Count = aState.Count;
-      foreach (WeatherForecast forecast in aState.Forecasts)
+      foreach (WeatherForecast forecast in aState.WeatherForecasts)
       {
-        Forecasts.Add(forecast.Clone() as WeatherForecast);
+        WeatherForecasts.Add(forecast.Clone() as WeatherForecast);
       }       
     }
 
@@ -35,9 +35,9 @@
 
     public override string ToString()
     {
-      var forecasts = string.Join("\n", Forecasts.Select(f => f.ToString()));
+      var weatherForecasts = string.Join("\n", WeatherForecasts.Select(f => f.ToString()));
 
-      return $"Count: {Count}\n\nForecasts:\n\n{forecasts}";
+      return $"Count: {Count}\n\nForecasts:\n\n{weatherForecasts}";
     }
   }
 }

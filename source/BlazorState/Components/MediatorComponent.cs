@@ -1,6 +1,5 @@
 ﻿namespace BlazorState.Components
 {
-  using System;
   using Microsoft.AspNetCore.Blazor;
   using Microsoft.AspNetCore.Blazor.Components;
   using MediatR;

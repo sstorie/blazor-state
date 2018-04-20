@@ -1,16 +1,16 @@
-﻿using BlazorState.Behaviors.History;
-using MediatR;
-using Microsoft.AspNetCore.Blazor.Browser.Rendering;
-using Microsoft.AspNetCore.Blazor.Browser.Services;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using BlazorState.Behaviors.DevTools;
-using BlazorState.Store;
-using BlazorState.Behaviors.State;
-using BlazorState.Features.RouteInState;
-
-namespace BlazorState.Client
+﻿namespace BlazorState.Client
 {
+  using BlazorState.Behaviors.History;
+  using MediatR;
+  using Microsoft.AspNetCore.Blazor.Browser.Rendering;
+  using Microsoft.AspNetCore.Blazor.Browser.Services;
+  using Microsoft.Extensions.DependencyInjection;
+  using System;
+  using BlazorState.Behaviors.DevTools;
+  using BlazorState.Store;
+  using BlazorState.Behaviors.State;
+  using BlazorState.Features.RouteInState;
+
   public class Program
   {
     static void Main(string[] args)

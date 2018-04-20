@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Blazor.Components;
-using Microsoft.AspNetCore.Blazor.RenderTree;
-
-namespace BlazorState.Behaviors.DevTools
+﻿namespace BlazorState.Behaviors.DevTools
 {
+  using Microsoft.AspNetCore.Blazor.Components;
+  using Microsoft.AspNetCore.Blazor.RenderTree;
+
   public class ReduxDevTools : BlazorComponent
   {
     // ReSharper disable once RedundantAssignment
